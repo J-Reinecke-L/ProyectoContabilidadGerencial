@@ -26,13 +26,13 @@ public class AppConta extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel3 = new javax.swing.JPanel();
-        jPanel1 = new javax.swing.JPanel();
+        Menu_IZQ = new javax.swing.JPanel();
         Bot_Req = new javax.swing.JLabel();
         Bot_Tarj = new javax.swing.JLabel();
         Bot_Tasa = new javax.swing.JLabel();
         Bot_HojaC = new javax.swing.JLabel();
         EspacioEnBlanco = new javax.swing.JLabel();
+        Bot_HojaC1 = new javax.swing.JLabel();
         Pantallas = new javax.swing.JPanel();
         Req = new javax.swing.JPanel();
         LineaArriba_Req = new javax.swing.JPanel();
@@ -51,6 +51,10 @@ public class AppConta extends javax.swing.JFrame {
         Bot_Elim_Req = new javax.swing.JButton();
         Bot_Mod_Req = new javax.swing.JButton();
         Bot_Sig_Req = new javax.swing.JButton();
+        TF_Departamento_Req1 = new javax.swing.JTextField();
+        Lbl_Departamento_Req1 = new javax.swing.JLabel();
+        TF_Departamento_Req2 = new javax.swing.JTextField();
+        Lbl_Departamento_Req2 = new javax.swing.JLabel();
         TarjetaT = new javax.swing.JPanel();
         LineaArriba_TarjetaT = new javax.swing.JPanel();
         SubT_TarjetaT = new javax.swing.JLabel();
@@ -69,56 +73,72 @@ public class AppConta extends javax.swing.JFrame {
         Bot_Mod_TT = new javax.swing.JButton();
         Bot_Sig_TT = new javax.swing.JButton();
         TasaGIF = new javax.swing.JPanel();
-        LineaArriba_Req2 = new javax.swing.JPanel();
-        SubT_Req2 = new javax.swing.JLabel();
-        jTextField10 = new javax.swing.JTextField();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jTextField11 = new javax.swing.JTextField();
-        jLabel11 = new javax.swing.JLabel();
-        jTextField12 = new javax.swing.JTextField();
-        jLabel12 = new javax.swing.JLabel();
-        jTextField13 = new javax.swing.JTextField();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        TablaReq2 = new javax.swing.JTable();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
+        LineaArriba_GIF = new javax.swing.JPanel();
+        SubT_GIF = new javax.swing.JLabel();
+        TF_GIFP_GIF = new javax.swing.JTextField();
+        Lbl_GIF_GIF = new javax.swing.JLabel();
+        Lbl_BaseA_GIF = new javax.swing.JLabel();
+        TF_BaseA_GIF = new javax.swing.JTextField();
+        Bot_Sig_GIF = new javax.swing.JButton();
         HojaCosto = new javax.swing.JPanel();
-        LineaArriba_Req3 = new javax.swing.JPanel();
-        SubT_Req3 = new javax.swing.JLabel();
-        jTextField14 = new javax.swing.JTextField();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jTextField15 = new javax.swing.JTextField();
-        jLabel15 = new javax.swing.JLabel();
-        jTextField16 = new javax.swing.JTextField();
-        jLabel16 = new javax.swing.JLabel();
-        jTextField17 = new javax.swing.JTextField();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        TablaReq3 = new javax.swing.JTable();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
+        LineaArriba_HC = new javax.swing.JPanel();
+        SubT_HC = new javax.swing.JLabel();
+        Lbl_ResMD_HC = new javax.swing.JLabel();
+        Lbl_ResMod_HC = new javax.swing.JLabel();
+        Lbl_ResGIF_HC = new javax.swing.JLabel();
+        Lbl_ResCU = new javax.swing.JLabel();
+        Lbl_ResCT = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        Tabla_MD_HC = new javax.swing.JTable();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        Tabla_GIF_HC = new javax.swing.JTable();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        Tabla_MOD_HC = new javax.swing.JTable();
+        Lbl_SubMD_HC = new javax.swing.JLabel();
+        Lbl_SubMOD_HC = new javax.swing.JLabel();
+        Lbl_SubGIF_HC = new javax.swing.JLabel();
+        Lbl_Cliente_HC = new javax.swing.JLabel();
+        Lbl_NumOrd_HC = new javax.swing.JLabel();
+        Lbl_Desc_HC = new javax.swing.JLabel();
+        Lbl_Cant_HC = new javax.swing.JLabel();
+        Lbl_FechaIn_HC = new javax.swing.JLabel();
+        Lbl_FechaTe_HC = new javax.swing.JLabel();
+        Lbl_ClienteDer_HC = new javax.swing.JLabel();
+        Lbl_NumOrdDer_HC = new javax.swing.JLabel();
+        Lbl_DescDer_HC = new javax.swing.JLabel();
+        Lbl_CantDer_HC = new javax.swing.JLabel();
+        Lbl_FechaInDer_HC = new javax.swing.JLabel();
+        Lbl_FechaTeDer_HC = new javax.swing.JLabel();
+        Panel_CT_HC = new javax.swing.JPanel();
+        Lbl_CTTabla_HC = new javax.swing.JLabel();
+        Lbl_CGIF_HC = new javax.swing.JLabel();
+        Lbl_CMD_HC = new javax.swing.JLabel();
+        Lbl_CMOD_HC = new javax.swing.JLabel();
+        Lbl_ResMDDer_HC = new javax.swing.JLabel();
+        Lbl_ResMODDer_HC = new javax.swing.JLabel();
+        Lbl_ResGIFDer_HC = new javax.swing.JLabel();
+        Lbl_ResCTDer_HC = new javax.swing.JLabel();
+        Lbl_ResCUDer_HC = new javax.swing.JLabel();
+        InDatos = new javax.swing.JPanel();
+        LineaArriba_InD = new javax.swing.JPanel();
+        SubT_InD = new javax.swing.JLabel();
+        TF_Cliente_InD = new javax.swing.JTextField();
+        Lbl_Cliente_InD = new javax.swing.JLabel();
+        Lbl_DescP_InD = new javax.swing.JLabel();
+        TF_DescP_InD = new javax.swing.JTextField();
+        Bot_Sig_InD = new javax.swing.JButton();
+        Lbl_FechaIn_InD = new javax.swing.JLabel();
+        TF_FechaIn_InD = new javax.swing.JTextField();
+        Lbl_FechaTe_InD = new javax.swing.JLabel();
+        TF_FechaTe_InD = new javax.swing.JTextField();
+        Lbl_Cant_InD = new javax.swing.JLabel();
+        TF_Cant_InD = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("App Contable");
         setName(""); // NOI18N
 
-        jPanel1.setBackground(new java.awt.Color(12, 45, 72));
+        Menu_IZQ.setBackground(new java.awt.Color(12, 45, 72));
 
         Bot_Req.setBackground(new java.awt.Color(213, 225, 234));
         Bot_Req.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
@@ -156,26 +176,33 @@ public class AppConta extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        Bot_HojaC1.setBackground(new java.awt.Color(213, 225, 234));
+        Bot_HojaC1.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Bot_HojaC1.setForeground(new java.awt.Color(213, 225, 234));
+        Bot_HojaC1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        Bot_HojaC1.setText("Inserción de datos");
+
+        javax.swing.GroupLayout Menu_IZQLayout = new javax.swing.GroupLayout(Menu_IZQ);
+        Menu_IZQ.setLayout(Menu_IZQLayout);
+        Menu_IZQLayout.setHorizontalGroup(
+            Menu_IZQLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Menu_IZQLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Menu_IZQLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Bot_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Bot_Tarj, javax.swing.GroupLayout.DEFAULT_SIZE, 136, Short.MAX_VALUE)
                     .addComponent(Bot_Tasa, javax.swing.GroupLayout.PREFERRED_SIZE, 136, Short.MAX_VALUE)
                     .addComponent(Bot_HojaC, javax.swing.GroupLayout.DEFAULT_SIZE, 136, Short.MAX_VALUE)
-                    .addComponent(EspacioEnBlanco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(EspacioEnBlanco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Bot_HojaC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {Bot_HojaC, Bot_Req, Bot_Tarj, Bot_Tasa});
+        Menu_IZQLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {Bot_HojaC, Bot_Req, Bot_Tarj, Bot_Tasa});
 
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        Menu_IZQLayout.setVerticalGroup(
+            Menu_IZQLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Menu_IZQLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(EspacioEnBlanco, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -185,13 +212,15 @@ public class AppConta extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Bot_Tasa, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Bot_HojaC1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Bot_HojaC, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(233, Short.MAX_VALUE))
+                .addContainerGap(268, Short.MAX_VALUE))
         );
 
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {Bot_HojaC, Bot_Req, Bot_Tarj, Bot_Tasa});
+        Menu_IZQLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {Bot_HojaC, Bot_Req, Bot_Tarj, Bot_Tasa});
 
-        getContentPane().add(jPanel1, java.awt.BorderLayout.LINE_START);
+        getContentPane().add(Menu_IZQ, java.awt.BorderLayout.LINE_START);
 
         Pantallas.setBackground(new java.awt.Color(255, 255, 255));
         Pantallas.setLayout(new java.awt.CardLayout());
@@ -288,38 +317,66 @@ public class AppConta extends javax.swing.JFrame {
         Bot_Sig_Req.setBackground(new java.awt.Color(12, 45, 72));
         Bot_Sig_Req.setForeground(new java.awt.Color(228, 228, 233));
         Bot_Sig_Req.setText("Siguiente");
+        Bot_Sig_Req.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Bot_Sig_ReqActionPerformed(evt);
+            }
+        });
+
+        TF_Departamento_Req1.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_Departamento_Req1.setToolTipText("");
+
+        Lbl_Departamento_Req1.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_Departamento_Req1.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Departamento_Req1.setText("Recibido por");
+
+        TF_Departamento_Req2.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_Departamento_Req2.setToolTipText("");
+
+        Lbl_Departamento_Req2.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_Departamento_Req2.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Departamento_Req2.setText("Entregado por");
 
         javax.swing.GroupLayout ReqLayout = new javax.swing.GroupLayout(Req);
         Req.setLayout(ReqLayout);
         ReqLayout.setHorizontalGroup(
             ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(LineaArriba_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(ReqLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(Lbl_NumReq_Req, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
-                        .addComponent(TF_NumReq_Req))
-                    .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(Lbl_Fecha_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(TF_Fecha_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(Lbl_Departamento_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(TF_Departamento_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(Lbl_NumPedido_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(TF_NumPedido_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
-                .addComponent(T_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Bot_Mod_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Bot_Elim_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Bot_Add_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(101, Short.MAX_VALUE))
-            .addComponent(LineaArriba_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ReqLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Bot_Sig_Req)
+                    .addGroup(ReqLayout.createSequentialGroup()
+                        .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(Lbl_NumReq_Req, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                                .addComponent(TF_NumReq_Req))
+                            .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(Lbl_Fecha_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TF_Fecha_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(Lbl_Departamento_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TF_Departamento_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(Lbl_NumPedido_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TF_NumPedido_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(T_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Bot_Mod_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Bot_Elim_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Bot_Add_Req, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ReqLayout.createSequentialGroup()
+                        .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_Departamento_Req1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TF_Departamento_Req1, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_Departamento_Req2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TF_Departamento_Req2, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Bot_Sig_Req)))
                 .addContainerGap())
         );
         ReqLayout.setVerticalGroup(
@@ -327,36 +384,46 @@ public class AppConta extends javax.swing.JFrame {
             .addGroup(ReqLayout.createSequentialGroup()
                 .addComponent(LineaArriba_Req, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(ReqLayout.createSequentialGroup()
-                        .addComponent(Lbl_NumReq_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_NumReq_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Lbl_Fecha_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_Fecha_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Lbl_Departamento_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_Departamento_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Lbl_NumPedido_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_NumPedido_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(T_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(ReqLayout.createSequentialGroup()
+                            .addComponent(Lbl_NumReq_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_NumReq_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Lbl_Fecha_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_Fecha_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Lbl_Departamento_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_Departamento_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Lbl_NumPedido_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_NumPedido_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(T_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                     .addGroup(ReqLayout.createSequentialGroup()
                         .addComponent(Bot_Add_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Bot_Elim_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Bot_Mod_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                .addComponent(Bot_Sig_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(ReqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Bot_Sig_Req, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(ReqLayout.createSequentialGroup()
+                        .addComponent(Lbl_Departamento_Req1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TF_Departamento_Req1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(ReqLayout.createSequentialGroup()
+                        .addComponent(Lbl_Departamento_Req2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TF_Departamento_Req2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(63, 63, 63))
         );
 
-        Pantallas.add(Req, "card2");
+        Pantallas.add(Req, "ReqMat");
 
         TarjetaT.setBackground(new java.awt.Color(66, 71, 74));
 
@@ -474,376 +541,620 @@ public class AppConta extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Bot_Mod_TT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Bot_Elim_TT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Bot_Add_TT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(101, Short.MAX_VALUE))
+                .addGroup(TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(Bot_Mod_TT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Bot_Elim_TT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Bot_Add_TT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Bot_Sig_TT))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(LineaArriba_TarjetaT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, TarjetaTLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Bot_Sig_TT)
-                .addContainerGap())
         );
         TarjetaTLayout.setVerticalGroup(
             TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TarjetaTLayout.createSequentialGroup()
                 .addComponent(LineaArriba_TarjetaT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(TarjetaTLayout.createSequentialGroup()
-                        .addComponent(Lbl_Nom_Emp_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_NomEmp_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Lbl_NumNom_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_NumNom_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Lbl_NumPed_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Num_Ped_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Lbl_Mes_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TF_Mes_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGroup(TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TarjetaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(TarjetaTLayout.createSequentialGroup()
+                            .addComponent(Lbl_Nom_Emp_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_NomEmp_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Lbl_NumNom_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_NumNom_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Lbl_NumPed_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Num_Ped_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Lbl_Mes_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(TF_Mes_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                     .addGroup(TarjetaTLayout.createSequentialGroup()
                         .addComponent(Bot_Add_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Bot_Elim_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Bot_Mod_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                .addComponent(Bot_Sig_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                        .addComponent(Bot_Mod_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(226, 226, 226)
+                        .addComponent(Bot_Sig_TT, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(119, Short.MAX_VALUE))
         );
 
-        Pantallas.add(TarjetaT, "card2");
+        Pantallas.add(TarjetaT, "TarjetaT");
 
         TasaGIF.setBackground(new java.awt.Color(66, 71, 74));
 
-        LineaArriba_Req2.setBackground(new java.awt.Color(80, 118, 156));
+        LineaArriba_GIF.setBackground(new java.awt.Color(80, 118, 156));
 
-        SubT_Req2.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 48)); // NOI18N
-        SubT_Req2.setForeground(new java.awt.Color(228, 228, 233));
-        SubT_Req2.setText("Requisición de materiales");
+        SubT_GIF.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 48)); // NOI18N
+        SubT_GIF.setForeground(new java.awt.Color(228, 228, 233));
+        SubT_GIF.setText("Tasa predeterminada GIF");
 
-        javax.swing.GroupLayout LineaArriba_Req2Layout = new javax.swing.GroupLayout(LineaArriba_Req2);
-        LineaArriba_Req2.setLayout(LineaArriba_Req2Layout);
-        LineaArriba_Req2Layout.setHorizontalGroup(
-            LineaArriba_Req2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(LineaArriba_Req2Layout.createSequentialGroup()
+        javax.swing.GroupLayout LineaArriba_GIFLayout = new javax.swing.GroupLayout(LineaArriba_GIF);
+        LineaArriba_GIF.setLayout(LineaArriba_GIFLayout);
+        LineaArriba_GIFLayout.setHorizontalGroup(
+            LineaArriba_GIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(LineaArriba_GIFLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(SubT_Req2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(SubT_GIF, javax.swing.GroupLayout.DEFAULT_SIZE, 1043, Short.MAX_VALUE))
         );
-        LineaArriba_Req2Layout.setVerticalGroup(
-            LineaArriba_Req2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LineaArriba_Req2Layout.createSequentialGroup()
+        LineaArriba_GIFLayout.setVerticalGroup(
+            LineaArriba_GIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LineaArriba_GIFLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(SubT_Req2, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
+                .addComponent(SubT_GIF, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTextField10.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField10.setToolTipText("");
+        TF_GIFP_GIF.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_GIFP_GIF.setToolTipText("");
 
-        jLabel9.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel9.setText("Número de requisición");
+        Lbl_GIF_GIF.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_GIF_GIF.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_GIF_GIF.setText("GIF totales presupuestados");
 
-        jLabel10.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel10.setText("Fecha");
+        Lbl_BaseA_GIF.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_BaseA_GIF.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_BaseA_GIF.setText("Base de aplicación");
 
-        jTextField11.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField11.setToolTipText("");
+        TF_BaseA_GIF.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_BaseA_GIF.setToolTipText("");
 
-        jLabel11.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel11.setText("Departamento");
-
-        jTextField12.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField12.setToolTipText("");
-
-        jLabel12.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel12.setText("Número de pedido");
-
-        jTextField13.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField13.setToolTipText("");
-
-        TablaReq2.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        TablaReq2.setForeground(new java.awt.Color(0, 0, 0));
-        TablaReq2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null}
-            },
-            new String [] {
-                "Cantidad", "Descripción", "CU", "CT"
-            }
-        ) {
-            Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Float.class, java.lang.Float.class
-            };
-
-            public Class getColumnClass(int columnIndex) {
-                return types [columnIndex];
-            }
-        });
-        TablaReq2.setToolTipText("");
-        TablaReq2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
-        TablaReq2.setName(""); // NOI18N
-        TablaReq2.setRowHeight(25);
-        TablaReq2.setSelectionBackground(new java.awt.Color(80, 118, 156));
-        jScrollPane3.setViewportView(TablaReq2);
-
-        jButton9.setBackground(new java.awt.Color(12, 45, 72));
-        jButton9.setForeground(new java.awt.Color(228, 228, 233));
-        jButton9.setText("Añadir");
-
-        jButton10.setBackground(new java.awt.Color(12, 45, 72));
-        jButton10.setForeground(new java.awt.Color(228, 228, 233));
-        jButton10.setText("Eliminar");
-
-        jButton11.setBackground(new java.awt.Color(12, 45, 72));
-        jButton11.setForeground(new java.awt.Color(228, 228, 233));
-        jButton11.setText("Modificar");
-
-        jButton12.setBackground(new java.awt.Color(12, 45, 72));
-        jButton12.setForeground(new java.awt.Color(228, 228, 233));
-        jButton12.setText("Siguiente");
+        Bot_Sig_GIF.setBackground(new java.awt.Color(12, 45, 72));
+        Bot_Sig_GIF.setForeground(new java.awt.Color(228, 228, 233));
+        Bot_Sig_GIF.setText("Siguiente");
 
         javax.swing.GroupLayout TasaGIFLayout = new javax.swing.GroupLayout(TasaGIF);
         TasaGIF.setLayout(TasaGIFLayout);
         TasaGIFLayout.setHorizontalGroup(
             TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(LineaArriba_GIF, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(TasaGIFLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
-                        .addComponent(jTextField10))
+                        .addComponent(Lbl_GIF_GIF, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                        .addComponent(TF_GIFP_GIF))
                     .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(101, Short.MAX_VALUE))
-            .addComponent(LineaArriba_Req2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, TasaGIFLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton12)
-                .addContainerGap())
+                        .addComponent(Lbl_BaseA_GIF, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(TF_BaseA_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Bot_Sig_GIF))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         TasaGIFLayout.setVerticalGroup(
             TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TasaGIFLayout.createSequentialGroup()
-                .addComponent(LineaArriba_Req2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(LineaArriba_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(TasaGIFLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(TasaGIFLayout.createSequentialGroup()
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addGroup(TasaGIFLayout.createSequentialGroup()
-                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(Lbl_GIF_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TF_GIFP_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Lbl_BaseA_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TF_BaseA_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Bot_Sig_GIF, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(269, Short.MAX_VALUE))
         );
 
-        Pantallas.add(TasaGIF, "card2");
+        Pantallas.add(TasaGIF, "TasaGIF");
 
         HojaCosto.setBackground(new java.awt.Color(66, 71, 74));
 
-        LineaArriba_Req3.setBackground(new java.awt.Color(80, 118, 156));
+        LineaArriba_HC.setBackground(new java.awt.Color(80, 118, 156));
 
-        SubT_Req3.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 48)); // NOI18N
-        SubT_Req3.setForeground(new java.awt.Color(228, 228, 233));
-        SubT_Req3.setText("Requisición de materiales");
+        SubT_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 48)); // NOI18N
+        SubT_HC.setForeground(new java.awt.Color(228, 228, 233));
+        SubT_HC.setText("Hoja de costos");
 
-        javax.swing.GroupLayout LineaArriba_Req3Layout = new javax.swing.GroupLayout(LineaArriba_Req3);
-        LineaArriba_Req3.setLayout(LineaArriba_Req3Layout);
-        LineaArriba_Req3Layout.setHorizontalGroup(
-            LineaArriba_Req3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(LineaArriba_Req3Layout.createSequentialGroup()
+        javax.swing.GroupLayout LineaArriba_HCLayout = new javax.swing.GroupLayout(LineaArriba_HC);
+        LineaArriba_HC.setLayout(LineaArriba_HCLayout);
+        LineaArriba_HCLayout.setHorizontalGroup(
+            LineaArriba_HCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(LineaArriba_HCLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(SubT_Req3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(SubT_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        LineaArriba_Req3Layout.setVerticalGroup(
-            LineaArriba_Req3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LineaArriba_Req3Layout.createSequentialGroup()
+        LineaArriba_HCLayout.setVerticalGroup(
+            LineaArriba_HCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LineaArriba_HCLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(SubT_Req3, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
+                .addComponent(SubT_HC, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTextField14.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField14.setToolTipText("");
+        Lbl_ResMD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResMD_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResMD_HC.setText("Materiales directos");
 
-        jLabel13.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel13.setText("Número de requisición");
+        Lbl_ResMod_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResMod_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResMod_HC.setText("Mano de obra directa");
 
-        jLabel14.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel14.setText("Fecha");
+        Lbl_ResGIF_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResGIF_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResGIF_HC.setText("Gastos indirectos de fabricación");
 
-        jTextField15.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField15.setToolTipText("");
+        Lbl_ResCU.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResCU.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResCU.setText("Costo unitario");
 
-        jLabel15.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel15.setText("Departamento");
+        Lbl_ResCT.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResCT.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResCT.setText("Costos totales");
 
-        jTextField16.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField16.setToolTipText("");
-
-        jLabel16.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(228, 228, 233));
-        jLabel16.setText("Número de pedido");
-
-        jTextField17.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
-        jTextField17.setToolTipText("");
-
-        TablaReq3.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        TablaReq3.setForeground(new java.awt.Color(0, 0, 0));
-        TablaReq3.setModel(new javax.swing.table.DefaultTableModel(
+        Tabla_MD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
+        Tabla_MD_HC.setForeground(new java.awt.Color(0, 0, 0));
+        Tabla_MD_HC.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null}
+                {null, null, null}
             },
             new String [] {
-                "Cantidad", "Descripción", "CU", "CT"
+                "Fecha", "# Req", "Costo"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Float.class, java.lang.Float.class
+                java.lang.String.class, java.lang.Integer.class, java.lang.Float.class
             };
 
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
-        TablaReq3.setToolTipText("");
-        TablaReq3.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
-        TablaReq3.setName(""); // NOI18N
-        TablaReq3.setRowHeight(25);
-        TablaReq3.setSelectionBackground(new java.awt.Color(80, 118, 156));
-        jScrollPane4.setViewportView(TablaReq3);
+        Tabla_MD_HC.setToolTipText("");
+        Tabla_MD_HC.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
+        Tabla_MD_HC.setName(""); // NOI18N
+        Tabla_MD_HC.setRowHeight(25);
+        Tabla_MD_HC.setSelectionBackground(new java.awt.Color(80, 118, 156));
+        jScrollPane5.setViewportView(Tabla_MD_HC);
 
-        jButton13.setBackground(new java.awt.Color(12, 45, 72));
-        jButton13.setForeground(new java.awt.Color(228, 228, 233));
-        jButton13.setText("Añadir");
+        Tabla_GIF_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
+        Tabla_GIF_HC.setForeground(new java.awt.Color(0, 0, 0));
+        Tabla_GIF_HC.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null}
+            },
+            new String [] {
+                "Fecha", "Horas", "Tasa", "Costo"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class
+            };
 
-        jButton14.setBackground(new java.awt.Color(12, 45, 72));
-        jButton14.setForeground(new java.awt.Color(228, 228, 233));
-        jButton14.setText("Eliminar");
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+        });
+        Tabla_GIF_HC.setToolTipText("");
+        Tabla_GIF_HC.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
+        Tabla_GIF_HC.setName(""); // NOI18N
+        Tabla_GIF_HC.setRowHeight(25);
+        Tabla_GIF_HC.setSelectionBackground(new java.awt.Color(80, 118, 156));
+        jScrollPane7.setViewportView(Tabla_GIF_HC);
 
-        jButton15.setBackground(new java.awt.Color(12, 45, 72));
-        jButton15.setForeground(new java.awt.Color(228, 228, 233));
-        jButton15.setText("Modificar");
+        Tabla_MOD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
+        Tabla_MOD_HC.setForeground(new java.awt.Color(0, 0, 0));
+        Tabla_MOD_HC.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Fecha", "# Tarjeta", "Horas", "Tasa", "Costo"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Integer.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class
+            };
 
-        jButton16.setBackground(new java.awt.Color(12, 45, 72));
-        jButton16.setForeground(new java.awt.Color(228, 228, 233));
-        jButton16.setText("Siguiente");
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+        });
+        Tabla_MOD_HC.setToolTipText("");
+        Tabla_MOD_HC.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
+        Tabla_MOD_HC.setName(""); // NOI18N
+        Tabla_MOD_HC.setRowHeight(25);
+        Tabla_MOD_HC.setSelectionBackground(new java.awt.Color(80, 118, 156));
+        jScrollPane6.setViewportView(Tabla_MOD_HC);
+
+        Lbl_SubMD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        Lbl_SubMD_HC.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Lbl_SubMD_HC.setText("Materiales directos");
+
+        Lbl_SubMOD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        Lbl_SubMOD_HC.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Lbl_SubMOD_HC.setText("Mano de obra directa");
+
+        Lbl_SubGIF_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        Lbl_SubGIF_HC.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Lbl_SubGIF_HC.setText("GIF");
+
+        Lbl_Cliente_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_Cliente_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Cliente_HC.setText("Cliente");
+
+        Lbl_NumOrd_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_NumOrd_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_NumOrd_HC.setText("Órden número");
+
+        Lbl_Desc_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_Desc_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Desc_HC.setText("Descripción");
+
+        Lbl_Cant_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_Cant_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Cant_HC.setText("Cantidad");
+
+        Lbl_FechaIn_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_FechaIn_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_FechaIn_HC.setText("Fecha de inicio");
+
+        Lbl_FechaTe_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_FechaTe_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_FechaTe_HC.setText("Fecha de terminación");
+
+        Lbl_ClienteDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ClienteDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ClienteDer_HC.setText("...");
+
+        Lbl_NumOrdDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_NumOrdDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_NumOrdDer_HC.setText("...");
+
+        Lbl_DescDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_DescDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_DescDer_HC.setText("...");
+
+        Lbl_CantDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_CantDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_CantDer_HC.setText("...");
+
+        Lbl_FechaInDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_FechaInDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_FechaInDer_HC.setText("...");
+
+        Lbl_FechaTeDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_FechaTeDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_FechaTeDer_HC.setText("...");
+
+        Lbl_CTTabla_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_CTTabla_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_CTTabla_HC.setText("Costo total");
+
+        Lbl_CGIF_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_CGIF_HC.setForeground(new java.awt.Color(228, 228, 233));
+
+        Lbl_CMD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_CMD_HC.setForeground(new java.awt.Color(228, 228, 233));
+
+        Lbl_CMOD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_CMOD_HC.setForeground(new java.awt.Color(228, 228, 233));
+
+        javax.swing.GroupLayout Panel_CT_HCLayout = new javax.swing.GroupLayout(Panel_CT_HC);
+        Panel_CT_HC.setLayout(Panel_CT_HCLayout);
+        Panel_CT_HCLayout.setHorizontalGroup(
+            Panel_CT_HCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Panel_CT_HCLayout.createSequentialGroup()
+                .addComponent(Lbl_CTTabla_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Lbl_CMD_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 285, Short.MAX_VALUE)
+                .addComponent(Lbl_CMOD_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(215, 215, 215)
+                .addComponent(Lbl_CGIF_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        Panel_CT_HCLayout.setVerticalGroup(
+            Panel_CT_HCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(Lbl_CTTabla_HC, javax.swing.GroupLayout.DEFAULT_SIZE, 32, Short.MAX_VALUE)
+            .addComponent(Lbl_CMD_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(Lbl_CMOD_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(Lbl_CGIF_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        Lbl_ResMDDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResMDDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResMDDer_HC.setText("...");
+
+        Lbl_ResMODDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResMODDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResMODDer_HC.setText("...");
+
+        Lbl_ResGIFDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResGIFDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResGIFDer_HC.setText("...");
+
+        Lbl_ResCTDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResCTDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResCTDer_HC.setText("...");
+
+        Lbl_ResCUDer_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
+        Lbl_ResCUDer_HC.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_ResCUDer_HC.setText("...");
 
         javax.swing.GroupLayout HojaCostoLayout = new javax.swing.GroupLayout(HojaCosto);
         HojaCosto.setLayout(HojaCostoLayout);
         HojaCostoLayout.setHorizontalGroup(
             HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(LineaArriba_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(HojaCostoLayout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(73, 73, 73)
                 .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
-                        .addComponent(jTextField14))
-                    .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(101, Short.MAX_VALUE))
-            .addComponent(LineaArriba_Req3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HojaCostoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton16)
-                .addContainerGap())
+                    .addGroup(HojaCostoLayout.createSequentialGroup()
+                        .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_Cliente_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_NumOrd_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_Cant_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_Desc_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_FechaTe_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_FechaIn_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(44, 44, 44)
+                        .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_ClienteDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_NumOrdDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_CantDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_DescDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_FechaTeDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lbl_FechaInDer_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(Panel_CT_HC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(HojaCostoLayout.createSequentialGroup()
+                        .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(HojaCostoLayout.createSequentialGroup()
+                                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(Lbl_SubMD_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                    .addComponent(Lbl_SubMOD_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(HojaCostoLayout.createSequentialGroup()
+                                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Lbl_ResMD_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Lbl_ResGIF_HC)
+                                    .addComponent(Lbl_ResMod_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Lbl_ResCU, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Lbl_ResCT, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(36, 36, 36)
+                                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(Lbl_ResMDDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Lbl_ResMODDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Lbl_ResCTDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Lbl_ResGIFDer_HC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Lbl_ResCUDer_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(2, 2, 2)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Lbl_SubGIF_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 284, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 284, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(124, Short.MAX_VALUE))
         );
         HojaCostoLayout.setVerticalGroup(
             HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(HojaCostoLayout.createSequentialGroup()
-                .addComponent(LineaArriba_Req3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(LineaArriba_HC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(23, 23, 23)
+                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HojaCostoLayout.createSequentialGroup()
+                        .addComponent(Lbl_Cliente_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_NumOrd_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_Desc_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_Cant_HC)
+                        .addGap(3, 3, 3)
+                        .addComponent(Lbl_FechaIn_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_FechaTe_HC))
+                    .addGroup(HojaCostoLayout.createSequentialGroup()
+                        .addComponent(Lbl_ClienteDer_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_NumOrdDer_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_DescDer_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_CantDer_HC)
+                        .addGap(3, 3, 3)
+                        .addComponent(Lbl_FechaInDer_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_FechaTeDer_HC)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(HojaCostoLayout.createSequentialGroup()
-                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Lbl_SubGIF_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 69, Short.MAX_VALUE))
                     .addGroup(HojaCostoLayout.createSequentialGroup()
-                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Lbl_SubMOD_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Lbl_SubMD_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 69, Short.MAX_VALUE)
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Panel_CT_HC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                .addGroup(HojaCostoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HojaCostoLayout.createSequentialGroup()
+                        .addComponent(Lbl_ResMD_HC)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Lbl_ResMod_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_ResGIF_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_ResCT)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_ResCU))
+                    .addGroup(HojaCostoLayout.createSequentialGroup()
+                        .addComponent(Lbl_ResMDDer_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_ResMODDer_HC, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_ResGIFDer_HC)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lbl_ResCTDer_HC)
+                        .addGap(3, 3, 3)
+                        .addComponent(Lbl_ResCUDer_HC)))
+                .addGap(52, 52, 52))
+        );
+
+        Pantallas.add(HojaCosto, "HojaCosto");
+
+        InDatos.setBackground(new java.awt.Color(66, 71, 74));
+
+        LineaArriba_InD.setBackground(new java.awt.Color(80, 118, 156));
+
+        SubT_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 48)); // NOI18N
+        SubT_InD.setForeground(new java.awt.Color(228, 228, 233));
+        SubT_InD.setText("Inserción de datos");
+
+        javax.swing.GroupLayout LineaArriba_InDLayout = new javax.swing.GroupLayout(LineaArriba_InD);
+        LineaArriba_InD.setLayout(LineaArriba_InDLayout);
+        LineaArriba_InDLayout.setHorizontalGroup(
+            LineaArriba_InDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(LineaArriba_InDLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(SubT_InD, javax.swing.GroupLayout.DEFAULT_SIZE, 1043, Short.MAX_VALUE))
+        );
+        LineaArriba_InDLayout.setVerticalGroup(
+            LineaArriba_InDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LineaArriba_InDLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(SubT_InD, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        Pantallas.add(HojaCosto, "card2");
+        TF_Cliente_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_Cliente_InD.setToolTipText("");
+
+        Lbl_Cliente_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_Cliente_InD.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Cliente_InD.setText("Cliente");
+
+        Lbl_DescP_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_DescP_InD.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_DescP_InD.setText("Descripción del pedido");
+
+        TF_DescP_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_DescP_InD.setToolTipText("");
+
+        Bot_Sig_InD.setBackground(new java.awt.Color(12, 45, 72));
+        Bot_Sig_InD.setForeground(new java.awt.Color(228, 228, 233));
+        Bot_Sig_InD.setText("Siguiente");
+
+        Lbl_FechaIn_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_FechaIn_InD.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_FechaIn_InD.setText("Fecha de inicio");
+
+        TF_FechaIn_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_FechaIn_InD.setToolTipText("");
+
+        Lbl_FechaTe_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_FechaTe_InD.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_FechaTe_InD.setText("Fecha de terminación");
+
+        TF_FechaTe_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_FechaTe_InD.setToolTipText("");
+
+        Lbl_Cant_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
+        Lbl_Cant_InD.setForeground(new java.awt.Color(228, 228, 233));
+        Lbl_Cant_InD.setText("Cantidad");
+
+        TF_Cant_InD.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        TF_Cant_InD.setToolTipText("");
+
+        javax.swing.GroupLayout InDatosLayout = new javax.swing.GroupLayout(InDatos);
+        InDatos.setLayout(InDatosLayout);
+        InDatosLayout.setHorizontalGroup(
+            InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(LineaArriba_InD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(InDatosLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(InDatosLayout.createSequentialGroup()
+                        .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_Cliente_InD, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                            .addComponent(TF_Cliente_InD))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_FechaIn_InD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TF_FechaIn_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_Cant_InD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TF_Cant_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(InDatosLayout.createSequentialGroup()
+                        .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_DescP_InD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TF_DescP_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Lbl_FechaTe_InD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TF_FechaTe_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(Bot_Sig_InD))
+                .addContainerGap(239, Short.MAX_VALUE))
+        );
+        InDatosLayout.setVerticalGroup(
+            InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InDatosLayout.createSequentialGroup()
+                .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(InDatosLayout.createSequentialGroup()
+                        .addComponent(LineaArriba_InD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(InDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(InDatosLayout.createSequentialGroup()
+                                .addComponent(Lbl_Cliente_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(TF_Cliente_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(InDatosLayout.createSequentialGroup()
+                                .addComponent(Lbl_FechaIn_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(TF_FechaIn_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(InDatosLayout.createSequentialGroup()
+                                .addComponent(Lbl_Cant_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(TF_Cant_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(Lbl_DescP_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TF_DescP_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(InDatosLayout.createSequentialGroup()
+                        .addComponent(Lbl_FechaTe_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TF_FechaTe_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(Bot_Sig_InD, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(269, Short.MAX_VALUE))
+        );
+
+        Pantallas.add(InDatos, "InDatos");
 
         getContentPane().add(Pantallas, java.awt.BorderLayout.CENTER);
 
@@ -858,6 +1169,10 @@ public class AppConta extends javax.swing.JFrame {
     private void EspacioEnBlancoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_EspacioEnBlancoMouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_EspacioEnBlancoMouseClicked
+
+    private void Bot_Sig_ReqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Bot_Sig_ReqActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Bot_Sig_ReqActionPerformed
 
     /**
      * @param args the command line arguments
@@ -900,36 +1215,91 @@ public class AppConta extends javax.swing.JFrame {
     private javax.swing.JButton Bot_Elim_Req;
     private javax.swing.JButton Bot_Elim_TT;
     private javax.swing.JLabel Bot_HojaC;
+    private javax.swing.JLabel Bot_HojaC1;
     private javax.swing.JButton Bot_Mod_Req;
     private javax.swing.JButton Bot_Mod_TT;
     private javax.swing.JLabel Bot_Req;
+    private javax.swing.JButton Bot_Sig_GIF;
+    private javax.swing.JButton Bot_Sig_InD;
     private javax.swing.JButton Bot_Sig_Req;
     private javax.swing.JButton Bot_Sig_TT;
     private javax.swing.JLabel Bot_Tarj;
     private javax.swing.JLabel Bot_Tasa;
     private javax.swing.JLabel EspacioEnBlanco;
     private javax.swing.JPanel HojaCosto;
+    private javax.swing.JPanel InDatos;
+    private javax.swing.JLabel Lbl_BaseA_GIF;
+    private javax.swing.JLabel Lbl_CGIF_HC;
+    private javax.swing.JLabel Lbl_CMD_HC;
+    private javax.swing.JLabel Lbl_CMOD_HC;
+    private javax.swing.JLabel Lbl_CTTabla_HC;
+    private javax.swing.JLabel Lbl_CantDer_HC;
+    private javax.swing.JLabel Lbl_Cant_HC;
+    private javax.swing.JLabel Lbl_Cant_InD;
+    private javax.swing.JLabel Lbl_ClienteDer_HC;
+    private javax.swing.JLabel Lbl_Cliente_HC;
+    private javax.swing.JLabel Lbl_Cliente_InD;
     private javax.swing.JLabel Lbl_Departamento_Req;
+    private javax.swing.JLabel Lbl_Departamento_Req1;
+    private javax.swing.JLabel Lbl_Departamento_Req2;
+    private javax.swing.JLabel Lbl_DescDer_HC;
+    private javax.swing.JLabel Lbl_DescP_InD;
+    private javax.swing.JLabel Lbl_Desc_HC;
+    private javax.swing.JLabel Lbl_FechaInDer_HC;
+    private javax.swing.JLabel Lbl_FechaIn_HC;
+    private javax.swing.JLabel Lbl_FechaIn_InD;
+    private javax.swing.JLabel Lbl_FechaTeDer_HC;
+    private javax.swing.JLabel Lbl_FechaTe_HC;
+    private javax.swing.JLabel Lbl_FechaTe_InD;
     private javax.swing.JLabel Lbl_Fecha_Req;
+    private javax.swing.JLabel Lbl_GIF_GIF;
     private javax.swing.JLabel Lbl_Mes_TT;
     private javax.swing.JLabel Lbl_Nom_Emp_TT;
     private javax.swing.JLabel Lbl_NumNom_TT;
+    private javax.swing.JLabel Lbl_NumOrdDer_HC;
+    private javax.swing.JLabel Lbl_NumOrd_HC;
     private javax.swing.JLabel Lbl_NumPed_TT;
     private javax.swing.JLabel Lbl_NumPedido_Req;
     private javax.swing.JLabel Lbl_NumReq_Req;
+    private javax.swing.JLabel Lbl_ResCT;
+    private javax.swing.JLabel Lbl_ResCTDer_HC;
+    private javax.swing.JLabel Lbl_ResCU;
+    private javax.swing.JLabel Lbl_ResCUDer_HC;
+    private javax.swing.JLabel Lbl_ResGIFDer_HC;
+    private javax.swing.JLabel Lbl_ResGIF_HC;
+    private javax.swing.JLabel Lbl_ResMDDer_HC;
+    private javax.swing.JLabel Lbl_ResMD_HC;
+    private javax.swing.JLabel Lbl_ResMODDer_HC;
+    private javax.swing.JLabel Lbl_ResMod_HC;
+    private javax.swing.JLabel Lbl_SubGIF_HC;
+    private javax.swing.JLabel Lbl_SubMD_HC;
+    private javax.swing.JLabel Lbl_SubMOD_HC;
+    private javax.swing.JPanel LineaArriba_GIF;
+    private javax.swing.JPanel LineaArriba_HC;
+    private javax.swing.JPanel LineaArriba_InD;
     private javax.swing.JPanel LineaArriba_Req;
-    private javax.swing.JPanel LineaArriba_Req2;
-    private javax.swing.JPanel LineaArriba_Req3;
     private javax.swing.JPanel LineaArriba_TarjetaT;
+    private javax.swing.JPanel Menu_IZQ;
     private javax.swing.JTextField Num_Ped_TT;
+    private javax.swing.JPanel Panel_CT_HC;
     private javax.swing.JPanel Pantallas;
     private javax.swing.JPanel Req;
+    private javax.swing.JLabel SubT_GIF;
+    private javax.swing.JLabel SubT_HC;
+    private javax.swing.JLabel SubT_InD;
     private javax.swing.JLabel SubT_Req;
-    private javax.swing.JLabel SubT_Req2;
-    private javax.swing.JLabel SubT_Req3;
     private javax.swing.JLabel SubT_TarjetaT;
+    private javax.swing.JTextField TF_BaseA_GIF;
+    private javax.swing.JTextField TF_Cant_InD;
+    private javax.swing.JTextField TF_Cliente_InD;
     private javax.swing.JTextField TF_Departamento_Req;
+    private javax.swing.JTextField TF_Departamento_Req1;
+    private javax.swing.JTextField TF_Departamento_Req2;
+    private javax.swing.JTextField TF_DescP_InD;
+    private javax.swing.JTextField TF_FechaIn_InD;
+    private javax.swing.JTextField TF_FechaTe_InD;
     private javax.swing.JTextField TF_Fecha_Req;
+    private javax.swing.JTextField TF_GIFP_GIF;
     private javax.swing.JTextField TF_Mes_TT;
     private javax.swing.JTextField TF_NomEmp_TT;
     private javax.swing.JTextField TF_NumNom_TT;
@@ -938,38 +1308,14 @@ public class AppConta extends javax.swing.JFrame {
     private javax.swing.JScrollPane T_Req;
     private javax.swing.JTable TablaReq;
     private javax.swing.JTable TablaReq1;
-    private javax.swing.JTable TablaReq2;
-    private javax.swing.JTable TablaReq3;
+    private javax.swing.JTable Tabla_GIF_HC;
+    private javax.swing.JTable Tabla_MD_HC;
+    private javax.swing.JTable Tabla_MOD_HC;
     private javax.swing.JPanel TarjetaT;
     private javax.swing.JPanel TasaGIF;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     // End of variables declaration//GEN-END:variables
 }
