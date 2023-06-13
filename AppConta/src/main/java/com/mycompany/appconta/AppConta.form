@@ -765,8 +765,8 @@
                       <Table columnCount="4" rowCount="1">
                         <Column editable="true" title="D&#xed;a" type="java.lang.Integer"/>
                         <Column editable="true" title="Tiempo total (horas)" type="java.lang.Float"/>
-                        <Column editable="true" title="Tasa por hora" type="java.lang.Object"/>
-                        <Column editable="true" title="Costo total" type="java.lang.Object"/>
+                        <Column editable="true" title="Tasa por hora" type="java.lang.Float"/>
+                        <Column editable="true" title="Costo total" type="java.lang.Float"/>
                       </Table>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
