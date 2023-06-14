@@ -9,13 +9,37 @@ package com.mycompany.appconta;
  * @author José
  */
 public class AppConta extends javax.swing.JFrame {
-
+    
+    
     /**
      * Creates new form AppConta
      */
     public AppConta() {
         initComponents();
-    }
+        //Declaracion de los objeto de jPanel de requisiciones de materiales
+        String NumReq = TF_NumReq_Req.getText();
+        String FechaReq = TF_Fecha_Req.getText();
+        String Dep= TF_Departamento_Req.getText();
+        String Nump = TF_NumPedido_Req.getText();
+        String Recibe = TF_Departamento_Req1.getText();
+        String Entrega = TF_Departamento_Req2.getText();
+        //Declaracion de los objetos de jpanel de Tarjeta de tiempo
+        String NombreE= TF_NomEmp_TT.getText();
+        String Numnom = TF_NumNom_TT.getText();
+        String Numped = Num_Ped_TT.getText();
+        String Mes = TF_Mes_TT.getText();
+        //Declaracion de los objetos de jpanel de tasa GIF
+        String Giftotal = TF_GIFP_GIF.getText();
+        String Baseap= TF_BaseA_GIF.getText();
+        //Declaracion de los objetos de jpanel de Insercion de datos
+        String cliente = TF_Cliente_InD.getText();
+        String Fechaini= TF_FechaIn_InD.getText();
+        String FechaTer =TF_FechaTe_InD.getText();
+        String Cant= TF_Cant_InD.getText();
+        String DescripPed= TF_DescP_InD.getText();
+        
+    }          
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -156,18 +180,33 @@ public class AppConta extends javax.swing.JFrame {
         Bot_Tarj.setForeground(new java.awt.Color(213, 225, 234));
         Bot_Tarj.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         Bot_Tarj.setText("Tarjetas de tiempo");
+        Bot_Tarj.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Bot_TarjMouseClicked(evt);
+            }
+        });
 
         Bot_Tasa.setBackground(new java.awt.Color(213, 225, 234));
         Bot_Tasa.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
         Bot_Tasa.setForeground(new java.awt.Color(213, 225, 234));
         Bot_Tasa.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         Bot_Tasa.setText("Tasa predeterminada GIF");
+        Bot_Tasa.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Bot_TasaMouseClicked(evt);
+            }
+        });
 
         Bot_HojaC.setBackground(new java.awt.Color(213, 225, 234));
         Bot_HojaC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 14)); // NOI18N
         Bot_HojaC.setForeground(new java.awt.Color(213, 225, 234));
         Bot_HojaC.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         Bot_HojaC.setText("Hoja de costos");
+        Bot_HojaC.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Bot_HojaCMouseClicked(evt);
+            }
+        });
 
         EspacioEnBlanco.setForeground(new java.awt.Color(255, 255, 255));
         EspacioEnBlanco.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -181,6 +220,11 @@ public class AppConta extends javax.swing.JFrame {
         Bot_HojaC1.setForeground(new java.awt.Color(213, 225, 234));
         Bot_HojaC1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         Bot_HojaC1.setText("Inserción de datos");
+        Bot_HojaC1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Bot_HojaC1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout Menu_IZQLayout = new javax.swing.GroupLayout(Menu_IZQ);
         Menu_IZQ.setLayout(Menu_IZQLayout);
@@ -251,6 +295,11 @@ public class AppConta extends javax.swing.JFrame {
 
         TF_NumReq_Req.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
         TF_NumReq_Req.setToolTipText("");
+        TF_NumReq_Req.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TF_NumReq_ReqActionPerformed(evt);
+            }
+        });
 
         Lbl_NumReq_Req.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
         Lbl_NumReq_Req.setForeground(new java.awt.Color(228, 228, 233));
@@ -278,7 +327,6 @@ public class AppConta extends javax.swing.JFrame {
         TF_NumPedido_Req.setToolTipText("");
 
         TablaReq.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        TablaReq.setForeground(new java.awt.Color(0, 0, 0));
         TablaReq.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null}
@@ -479,7 +527,6 @@ public class AppConta extends javax.swing.JFrame {
         TF_Mes_TT.setToolTipText("");
 
         TablaReq1.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        TablaReq1.setForeground(new java.awt.Color(0, 0, 0));
         TablaReq1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null}
@@ -710,7 +757,6 @@ public class AppConta extends javax.swing.JFrame {
         Lbl_ResCT.setText("Costos totales");
 
         Tabla_MD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        Tabla_MD_HC.setForeground(new java.awt.Color(0, 0, 0));
         Tabla_MD_HC.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null}
@@ -735,7 +781,6 @@ public class AppConta extends javax.swing.JFrame {
         jScrollPane5.setViewportView(Tabla_MD_HC);
 
         Tabla_GIF_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        Tabla_GIF_HC.setForeground(new java.awt.Color(0, 0, 0));
         Tabla_GIF_HC.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null}
@@ -760,7 +805,6 @@ public class AppConta extends javax.swing.JFrame {
         jScrollPane7.setViewportView(Tabla_GIF_HC);
 
         Tabla_MOD_HC.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 18)); // NOI18N
-        Tabla_MOD_HC.setForeground(new java.awt.Color(0, 0, 0));
         Tabla_MOD_HC.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null}
@@ -1163,6 +1207,10 @@ public class AppConta extends javax.swing.JFrame {
 
     private void Bot_ReqMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Bot_ReqMouseClicked
         // TODO add your handling code here:
+        Pantallas.removeAll();
+        Pantallas.add(Req);
+        Pantallas.revalidate();
+        
         
     }//GEN-LAST:event_Bot_ReqMouseClicked
 
@@ -1173,6 +1221,38 @@ public class AppConta extends javax.swing.JFrame {
     private void Bot_Sig_ReqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Bot_Sig_ReqActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_Bot_Sig_ReqActionPerformed
+
+    private void Bot_TarjMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Bot_TarjMouseClicked
+        // TODO add your handling code here:
+        Pantallas.removeAll();
+        Pantallas.add(TarjetaT);
+        Pantallas.revalidate();
+    }//GEN-LAST:event_Bot_TarjMouseClicked
+
+    private void Bot_TasaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Bot_TasaMouseClicked
+        // TODO add your handling code here:
+        Pantallas.removeAll();
+        Pantallas.add(TasaGIF);
+        Pantallas.revalidate();
+    }//GEN-LAST:event_Bot_TasaMouseClicked
+
+    private void Bot_HojaC1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Bot_HojaC1MouseClicked
+        // TODO add your handling code here:
+        Pantallas.removeAll();
+        Pantallas.add(InDatos);
+        Pantallas.revalidate();
+    }//GEN-LAST:event_Bot_HojaC1MouseClicked
+
+    private void Bot_HojaCMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Bot_HojaCMouseClicked
+        // TODO add your handling code here:
+        Pantallas.removeAll();
+        Pantallas.add(HojaCosto);
+        Pantallas.revalidate();
+    }//GEN-LAST:event_Bot_HojaCMouseClicked
+
+    private void TF_NumReq_ReqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TF_NumReq_ReqActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TF_NumReq_ReqActionPerformed
 
     /**
      * @param args the command line arguments
