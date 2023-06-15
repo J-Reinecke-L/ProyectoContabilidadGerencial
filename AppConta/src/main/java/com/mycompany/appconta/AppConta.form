@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="title" type="java.lang.String" value="App Contable"/>
@@ -210,7 +210,7 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="Lbl_NumReq_Req" pref="262" max="32767" attributes="0"/>
@@ -231,29 +231,35 @@
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="T_Req" min="-2" pref="670" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Lbl_RecibidoPor_Req" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TF_RecibidoPor_Req" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Lbl_EntregadoPor_Req" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TF_EntregadoPor_Req" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="Bot_Mod_Req" max="32767" attributes="0"/>
                                   <Component id="Bot_Elim_Req" alignment="0" max="32767" attributes="0"/>
                                   <Component id="Bot_Add_Req" alignment="0" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace pref="12" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="Lbl_Departamento_Req1" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="TF_Departamento_Req1" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="Lbl_Departamento_Req2" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="TF_Departamento_Req2" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                              </Group>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="Bot_Sig_Req" min="-2" max="-2" attributes="0"/>
+                              <Component id="Bot_Sig_Req" min="-2" pref="81" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -263,7 +269,7 @@
                       <Component id="LineaArriba_Req" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" attributes="0">
                                   <Component id="Lbl_NumReq_Req" min="-2" pref="40" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -283,7 +289,7 @@
                               </Group>
                               <Component id="T_Req" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="Bot_Add_Req" min="-2" pref="40" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Bot_Elim_Req" min="-2" pref="40" max="-2" attributes="0"/>
@@ -291,18 +297,20 @@
                               <Component id="Bot_Mod_Req" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="9" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Bot_Sig_Req" min="-2" pref="40" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
-                              <Component id="Lbl_Departamento_Req1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="Lbl_RecibidoPor_Req" min="-2" pref="40" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="TF_Departamento_Req1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="TF_RecibidoPor_Req" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="Lbl_Departamento_Req2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Lbl_EntregadoPor_Req" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="Bot_Sig_Req" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="TF_Departamento_Req2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="TF_EntregadoPor_Req" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
@@ -410,6 +418,9 @@
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TF_Departamento_ReqActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="Lbl_NumPedido_Req">
               <Properties>
@@ -461,39 +472,6 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="Bot_Add_Req">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="48" green="2d" red="c" type="rgb"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="Bot_Elim_Req">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="48" green="2d" red="c" type="rgb"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Eliminar"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="Bot_Mod_Req">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="48" green="2d" red="c" type="rgb"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Modificar"/>
-              </Properties>
-            </Component>
             <Component class="javax.swing.JButton" name="Bot_Sig_Req">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -507,8 +485,36 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bot_Sig_ReqActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="Bot_Sig_Req.addActionListener(new java.awt.event.ActionListener() {&#xa;  public void actionPerformed(ActionEvent e) {&#xa;    // Get the text of the text field and assign it to the variable&#xa;    NumReq = TF_NumReq_Req.getText();&#xa;    FechaReq = TF_Fecha_Req.getText();&#xa;    Dep= TF_Departamento_Req.getText();&#xa;    Nump = TF_NumPedido_Req.getText();&#xa;    Recibe = TF_RecibidoPor_Req.getText();&#xa;    Entrega = TF_EntregadoPor_Req.getText();&#xa;  }&#xa;});"/>
+              </AuxValues>
             </Component>
-            <Component class="javax.swing.JTextField" name="TF_Departamento_Req1">
+            <Component class="javax.swing.JButton" name="Bot_Elim_Req">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="2d" red="c" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Eliminar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bot_Elim_ReqActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Bot_Mod_Req">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="2d" red="c" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Modificar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="TF_RecibidoPor_Req">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Microsoft YaHei UI Light" size="24" style="0"/>
@@ -516,7 +522,7 @@
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Lbl_Departamento_Req1">
+            <Component class="javax.swing.JLabel" name="Lbl_RecibidoPor_Req">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Microsoft YaHei UI Light" size="18" style="1"/>
@@ -527,7 +533,7 @@
                 <Property name="text" type="java.lang.String" value="Recibido por"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="TF_Departamento_Req2">
+            <Component class="javax.swing.JTextField" name="TF_EntregadoPor_Req">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Microsoft YaHei UI Light" size="24" style="0"/>
@@ -535,7 +541,7 @@
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Lbl_Departamento_Req2">
+            <Component class="javax.swing.JLabel" name="Lbl_EntregadoPor_Req">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Microsoft YaHei UI Light" size="18" style="1"/>
@@ -545,6 +551,20 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Entregado por"/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="Bot_Add_Req">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="2d" red="c" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="A&#xf1;adir col"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bot_Add_ReqActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -586,17 +606,19 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jScrollPane2" min="-2" pref="670" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="Bot_Mod_TT" alignment="0" max="32767" attributes="0"/>
-                              <Component id="Bot_Elim_TT" alignment="0" max="32767" attributes="0"/>
-                              <Component id="Bot_Add_TT" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="Bot_Sig_TT" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Bot_Mod_TT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Bot_Elim_TT" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Bot_Add_TT" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Component id="LineaArriba_TarjetaT" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="Bot_Sig_TT" min="-2" pref="81" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -631,11 +653,11 @@
                               <Component id="Bot_Elim_TT" min="-2" pref="40" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Bot_Mod_TT" min="-2" pref="40" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="226" max="-2" attributes="0"/>
-                              <Component id="Bot_Sig_TT" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="119" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="Bot_Sig_TT" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -832,6 +854,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Siguiente"/>
               </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="Bot_Sig_TT.addActionListener(new java.awt.event.ActionListener() {&#xa;  public void actionPerformed(ActionEvent e) {&#xa;    // Get the text of the text field and assign it to the variable&#xa;    NombreE= TF_NomEmp_TT.getText();&#xa;    Numnom = TF_NumNom_TT.getText();&#xa;    Numped = Num_Ped_TT.getText();&#xa;    Mes = TF_Mes_TT.getText();&#xa;  }&#xa;});"/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -862,7 +887,7 @@
                               <Component id="Lbl_BaseA_GIF" alignment="0" max="32767" attributes="0"/>
                               <Component id="TF_BaseA_GIF" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="Bot_Sig_GIF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Bot_Sig_GIF" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -880,9 +905,9 @@
                       <Component id="Lbl_BaseA_GIF" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="TF_BaseA_GIF" min="-2" pref="40" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="Bot_Sig_GIF" min="-2" pref="40" max="-2" attributes="0"/>
-                      <EmptySpace pref="269" max="32767" attributes="0"/>
+                      <EmptySpace pref="275" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -976,6 +1001,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Siguiente"/>
               </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="Bot_Sig_GIF.addActionListener(new java.awt.event.ActionListener() {&#xa;  public void actionPerformed(ActionEvent e) {&#xa;    // Get the text of the text field and assign it to the variable&#xa;    Giftotal = TF_GIFP_GIF.getText();&#xa;    Baseap= TF_BaseA_GIF.getText();&#xa;  }&#xa;});"/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -998,62 +1026,64 @@
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="Lbl_Cliente_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_NumOrd_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_Cant_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_Desc_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_FechaTe_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_FechaIn_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="Lbl_ClienteDer_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_NumOrdDer_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_CantDer_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_DescDer_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_FechaTeDer_HC" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="Lbl_FechaInDer_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
                           <Component id="Panel_CT_HC" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="Lbl_SubMD_HC" max="32767" attributes="0"/>
-                                          <Component id="jScrollPane5" min="-2" pref="206" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jScrollPane6" pref="0" max="32767" attributes="0"/>
-                                          <Component id="Lbl_SubMOD_HC" min="-2" pref="350" max="-2" attributes="0"/>
-                                      </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Lbl_Cliente_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_NumOrd_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_Cant_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_Desc_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_FechaTe_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_FechaIn_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="Lbl_ResMD_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                                          <Component id="Lbl_ResGIF_HC" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="Lbl_ResMod_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                                          <Component id="Lbl_ResCU" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                                          <Component id="Lbl_ResCT" alignment="0" min="-2" pref="221" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="Lbl_ResMDDer_HC" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="Lbl_ResMODDer_HC" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="Lbl_ResCTDer_HC" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="Lbl_ResGIFDer_HC" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="Lbl_ResCUDer_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Lbl_ClienteDer_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_NumOrdDer_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_CantDer_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_DescDer_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_FechaTeDer_HC" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Lbl_FechaInDer_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Lbl_SubGIF_HC" min="-2" pref="284" max="-2" attributes="0"/>
-                                  <Component id="jScrollPane7" min="-2" pref="284" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="Lbl_SubMD_HC" max="32767" attributes="0"/>
+                                              <Component id="jScrollPane5" min="-2" pref="206" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jScrollPane6" pref="0" max="32767" attributes="0"/>
+                                              <Component id="Lbl_SubMOD_HC" min="-2" pref="350" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Lbl_ResMD_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
+                                              <Component id="Lbl_ResGIF_HC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Lbl_ResMod_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
+                                              <Component id="Lbl_ResCU" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
+                                              <Component id="Lbl_ResCT" alignment="0" min="-2" pref="221" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="Lbl_ResMDDer_HC" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="Lbl_ResMODDer_HC" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="Lbl_ResCTDer_HC" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="Lbl_ResGIFDer_HC" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="Lbl_ResCUDer_HC" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Lbl_SubGIF_HC" min="-2" pref="284" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane7" min="-2" pref="284" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
@@ -1065,9 +1095,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="LineaArriba_HC" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="Lbl_Cliente_HC" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Lbl_NumOrd_HC" min="-2" max="-2" attributes="0"/>
@@ -1079,8 +1109,27 @@
                               <Component id="Lbl_FechaIn_HC" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Lbl_FechaTe_HC" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Lbl_SubGIF_HC" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jScrollPane7" pref="69" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Lbl_SubMOD_HC" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                                          <Component id="Lbl_SubMD_HC" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jScrollPane6" pref="69" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane5" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="Lbl_ClienteDer_HC" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Lbl_NumOrdDer_HC" min="-2" pref="19" max="-2" attributes="0"/>
@@ -1095,27 +1144,8 @@
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="Lbl_SubGIF_HC" min="-2" pref="36" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane7" pref="69" max="32767" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Lbl_SubMOD_HC" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
-                                  <Component id="Lbl_SubMD_HC" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jScrollPane6" pref="69" max="32767" attributes="0"/>
-                                  <Component id="jScrollPane5" pref="0" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="Panel_CT_HC" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="45" max="32767" attributes="0"/>
+                      <EmptySpace pref="46" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <Component id="Lbl_ResMD_HC" min="-2" max="-2" attributes="0"/>
@@ -1255,9 +1285,9 @@
                     </Property>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                       <Table columnCount="3" rowCount="1">
-                        <Column editable="true" title="Fecha" type="java.lang.String"/>
-                        <Column editable="true" title="# Req" type="java.lang.Integer"/>
-                        <Column editable="true" title="Costo" type="java.lang.Float"/>
+                        <Column editable="false" title="Fecha" type="java.lang.String"/>
+                        <Column editable="false" title="# Req" type="java.lang.Integer"/>
+                        <Column editable="false" title="Costo" type="java.lang.Float"/>
                       </Table>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -1285,10 +1315,10 @@
                     </Property>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                       <Table columnCount="4" rowCount="1">
-                        <Column editable="true" title="Fecha" type="java.lang.String"/>
-                        <Column editable="true" title="Horas" type="java.lang.Float"/>
-                        <Column editable="true" title="Tasa" type="java.lang.Float"/>
-                        <Column editable="true" title="Costo" type="java.lang.Float"/>
+                        <Column editable="false" title="Fecha" type="java.lang.String"/>
+                        <Column editable="false" title="Horas" type="java.lang.Float"/>
+                        <Column editable="false" title="Tasa" type="java.lang.Float"/>
+                        <Column editable="false" title="Costo" type="java.lang.Float"/>
                       </Table>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -1316,11 +1346,11 @@
                     </Property>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                       <Table columnCount="5" rowCount="1">
-                        <Column editable="true" title="Fecha" type="java.lang.String"/>
-                        <Column editable="true" title="# Tarjeta" type="java.lang.Integer"/>
-                        <Column editable="true" title="Horas" type="java.lang.Float"/>
-                        <Column editable="true" title="Tasa" type="java.lang.Float"/>
-                        <Column editable="true" title="Costo" type="java.lang.Float"/>
+                        <Column editable="false" title="Fecha" type="java.lang.String"/>
+                        <Column editable="false" title="# Tarjeta" type="java.lang.Integer"/>
+                        <Column editable="false" title="Horas" type="java.lang.Float"/>
+                        <Column editable="false" title="Tasa" type="java.lang.Float"/>
+                        <Column editable="false" title="Costo" type="java.lang.Float"/>
                       </Table>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value=""/>
@@ -1437,6 +1467,10 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="..."/>
               </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String ca=&quot;045&quot;;"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="Lbl_ClienteDer_HC.setText(&quot; &quot;+cliente);"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JLabel" name="Lbl_NumOrdDer_HC">
               <Properties>
@@ -1635,7 +1669,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="LineaArriba_InD" alignment="0" max="32767" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -1665,9 +1699,9 @@
                                   <Component id="TF_FechaTe_InD" alignment="0" min="-2" pref="262" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="Bot_Sig_InD" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Bot_Sig_InD" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="239" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1706,9 +1740,9 @@
                               <Component id="TF_FechaTe_InD" min="-2" pref="40" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="Bot_Sig_InD" min="-2" pref="40" max="-2" attributes="0"/>
-                      <EmptySpace pref="269" max="32767" attributes="0"/>
+                      <EmptySpace pref="281" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1792,17 +1826,6 @@
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="Bot_Sig_InD">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="48" green="2d" red="c" type="rgb"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Siguiente"/>
-              </Properties>
-            </Component>
             <Component class="javax.swing.JLabel" name="Lbl_FechaIn_InD">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -1859,6 +1882,23 @@
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="Bot_Sig_InD">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="2d" red="c" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e9" green="e4" red="e4" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Siguiente"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bot_Sig_InDActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="Bot_Sig_InD.addActionListener(new java.awt.event.ActionListener() {&#xa;  public void actionPerformed(ActionEvent e) {&#xa;    // Get the text of the text field and assign it to the variable&#xa;    cliente = TF_Cliente_InD.getText();&#xa;    Fechaini= TF_FechaIn_InD.getText();&#xa;    FechaTer =TF_FechaTe_InD.getText();&#xa;    Cant= TF_Cant_InD.getText();&#xa;    DescripPed= TF_DescP_InD.getText();&#xa;&#xa;    Lbl_ClienteDer_HC.setText(&quot;&quot;+cliente);&#xa;    Lbl_FechaInDer_HC.setText(&quot;&quot;+Fechaini);&#xa;    Lbl_FechaTeDer_HC.setText(&quot;&quot;+FechaTer);&#xa;    Lbl_CantDer_HC.setText(&quot;&quot;+Cant);&#xa;    Lbl_DescDer_HC.setText(&quot;&quot;+DescripPed);&#xa;  }&#xa;});"/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
